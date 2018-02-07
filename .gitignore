@@ -30,6 +30,7 @@ bower_components
 .lock-wscript
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
+build
 build/Release
 
 # Dependency directories
@@ -55,5 +56,10 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
+.DS_Store
 .env
-
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.vscode
